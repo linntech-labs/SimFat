@@ -1,0 +1,54 @@
+name: Bug report
+description: Something in SimFat does not work as it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SimFat's **Report a bug** button opens this form with the version, build and
+        system filled in; reported from the error box, the error is filled in too.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the project ...
+        2. Select ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: SimFat version
+      placeholder: "0.0.5"
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Build
+  - type: input
+    id: system
+    attributes:
+      label: System
+      description: Operating system, Python and Qt.
+  - type: textarea
+    id: error
+    attributes:
+      label: Error
+      description: The error and its traceback, if SimFat showed one.
+      render: text
+  - type: textarea
+    id: files
+    attributes:
+      label: Project or model
+      description: >
+        Attach the project (the .sfp and its _files folder, zipped) or the FE model,
+        if it can be shared. Drag the file into this box.
