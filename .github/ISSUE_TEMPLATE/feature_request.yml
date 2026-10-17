@@ -1,0 +1,71 @@
+name: Feature request
+description: Something SimFat should do, or do differently.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you are trying to do and where SimFat stands in the way. The
+        problem matters more than the solution: there may be a better way to it.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you want to do
+      description: The task or evaluation, and what makes it hard or impossible in SimFat today.
+      placeholder: |
+        I evaluate welded frames from Nastran models and have to ...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: How it could work
+      description: What you would like SimFat to do -- in the window, in a file, or on the command line.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - FE model import
+        - Loads and load cases
+        - Parts, materials and S-N curves
+        - Welds
+        - Evaluation methods and standards
+        - Results and reports
+        - The window and its tools
+        - Command line and scripting
+        - Installing and updating
+        - Something else
+    validations:
+      required: true
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How much it matters to you
+      options:
+        - Nice to have
+        - It would save me real time
+        - I cannot do my work in SimFat without it
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How you do it today
+      description: A workaround, another program, or a hand calculation -- if there is one.
+  - type: textarea
+    id: references
+    attributes:
+      label: Standards, references or examples
+      description: >
+        A standard or guideline and its section, a paper, a sketch or a model.
+        Drag files into this box.
+  - type: input
+    id: version
+    attributes:
+      label: SimFat version
+      description: Under ! (About) in SimFat, if you have it installed.
+      placeholder: "0.2.0"

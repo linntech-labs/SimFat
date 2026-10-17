@@ -6,6 +6,7 @@
   <b>Fatigue evaluation of structures, straight from their finite element models.</b><br>
   <a href="https://github.com/linntech-labs/SimFat/releases">Download</a> ·
   <a href="https://github.com/linntech-labs/SimFat/issues/new?template=bug_report.yml">Report a bug</a> ·
+  <a href="https://github.com/linntech-labs/SimFat/issues/new?template=feature_request.yml">Request a feature</a> ·
   <a href="https://simfat.org/">simfat.org</a>
 </p>
 
@@ -94,7 +95,16 @@ when there was one. A GitHub account is needed to send it. Attach the project
 or the FE model if it can be shared: a problem that can be reproduced is
 fixed fastest.
 
-Questions that are not bugs: [kontakt@simfat.org](mailto:kontakt@simfat.org).
+## Requesting a feature
+
+Something SimFat should do, or do differently? Use the
+[feature request form](https://github.com/linntech-labs/SimFat/issues/new?template=feature_request.yml).
+Say what you are trying to do and what stands in the way, more than how it
+should be solved -- and name the standard and its section when it is about a
+method. Requests are labelled *enhancement*; give one a 👍 to say you need it
+too.
+
+Questions that are neither: [kontakt@simfat.org](mailto:kontakt@simfat.org).
 
 ## Licence
 
